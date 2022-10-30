@@ -1,0 +1,20 @@
+@import 'reset';
+@import 'quoter';
+
+body {
+    background-color: black;
+  }
+
+main {
+  font-family: Helvetica;
+  display: flex;
+  
+  background-color: #10044d;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://transparenttextures.com/patterns/cubes.png");
+}
+  
+  

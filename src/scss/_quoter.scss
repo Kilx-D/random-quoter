@@ -1,0 +1,40 @@
+div#quote-box {
+    background-color: #5B0AC4;
+    border-radius: 20px;
+    padding: 60px 100px;
+    color: rgb(233, 145, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 0 10px #740078;
+    min-width: 200px;
+    max-width: 50%;
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #author {
+        align-self: flex-end;
+    }
+
+
+   
+
+    .btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+        .btn {
+            border: none;
+            background-color: #500073;
+            border-radius: 8px;
+            padding: 16px 20px;
+            color: white;
+        }
+    }
+}
